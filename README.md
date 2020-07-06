@@ -3,6 +3,21 @@
 [Michael Jordan](https://www.linkedin.com/in/michaeljoshuajordan/)  
 February 2020 
 
-<p align="center">
-Click image below for the slide deck for this project:
-</p>
+![cover image](images/coverimage.png)
+
+## Table of Contents
+* [Overview and Motivation](#overview-and-motivation)
+* [Methodology](#methodology)
+* [Tools and Technologies](#tools-and-technologies)
+* [Acknowledgments](#acknowledgments)
+
+## Overview and Motivation
+
+
+## Methodology 
+
+
+## Tools and Technologies
+
+
+## Acknowledgments
