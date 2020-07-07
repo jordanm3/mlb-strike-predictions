@@ -1,4 +1,4 @@
-# Swing or Take? Predicting MLB Strikes
+# Swing or Take? *Predicting MLB Strikes*
 
 [Michael Jordan](https://www.linkedin.com/in/michaeljoshuajordan/)  
 February 2020 
