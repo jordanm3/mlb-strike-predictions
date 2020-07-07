@@ -41,7 +41,7 @@ Implementation of this project involved:
 
 4. Determine the most important metrics to use in evaluating a final model. In addition to overall accuracy, precision was prioritized since the primary goal of this model is to make a recommendation on whether a hitter should swing at a pitch. With this in mind, it is important to be sure that a pitch that is predicted to be a strike is actually a strike if a hitter is going to commit to swinging at it. 
 
-5. Test selected inputs using various classifier models to determine which model performs best in accuracy and precision. [Code found here.](https://github.com/jordanm3/street-art-to-fine-art/blob/master/models/autoencoder_model.ipynb) Models tested included:  
+5. Test selected inputs using various classifier models to determine which model performs best in accuracy and precision. [Code found here.](https://github.com/jordanm3/mlb-strike-predictions/blob/master/model_selection.ipynb) Models tested included:  
       a. Logistic Regression  
       b. K-Nearest Neighbors (KNN)  
       c. Naive Bayes Classifier  
@@ -60,7 +60,7 @@ Implementation of this project involved:
 - Tableau (Visualizations for feature importance scores)
 
 
-## Results
+## Results and Conclusions
 **Model Comparison**:
 
 ![model comparison](images/model_performance_test.png)
