@@ -72,7 +72,7 @@ Implementation of this project involved:
 
 **Final Thoughts**:
 - An "ensemble classifier" ended up providing the best performance for my selected metrics (accuracy and precision).
-- When considering the feature importance scores of the inputs used in my model (see feature_selection_engineering.ipynb for a ranking of the top features), it could be recommended that hitters pay the most attention to the following factors when predicting if a strike will be thrown:  
+- When considering the feature importance scores of the inputs used in my model (see feature_selection_engineering.ipynb for a ranking of the top features), it could be recommended that hitters pay most attention to the following factors when predicting if a strike will be thrown:  
       a. Balls/strikes already in the count  
       b. Runners on base  
       c. Total pitch count of the current pitcher
