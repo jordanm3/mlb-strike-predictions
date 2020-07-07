@@ -31,11 +31,11 @@ Implementation of this project involved:
 2. Create a target value that can be predicted (Strike = 1, Ball = 0). Perform feature selection and engineering to identify potential real-world model inputs a hitter could use when attempting to predict whether a strike or ball would be thrown when there are less than 2 strikes already in the count. [Code found here.](https://github.com/jordanm3/mlb-strike-predictions/blob/master/feature_selection_engineering.ipynb) 
 
 3. Test different combinations of features on a range of metrics (accuracy, precision, recall and f1 scores) using Logistic Regression as a baseline model. [Code found here.](https://github.com/jordanm3/mlb-strike-predictions/blob/master/feature_selection_engineering.ipynb) Select a final subset of features (see jupyter notebook for a description of each field) to use as inputs for a final model:  
-      a. Strike/Ball Count
+      a. Strike/Ball Count  
       b. Number of Outs  
       c. Pitcher Fatigue (# of pitches thrown)  
       d. Runners on Base  
-      e. Score (Pitcher's Team) 
+      e. Score (Pitcher's Team)  
       f. Pitch Type  
       g. Pitcher/Hitter Position
 
