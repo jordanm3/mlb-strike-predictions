@@ -64,18 +64,19 @@ Implementation of this project involved:
 **Model Performance Comparison**:
 
 ![model comparison](images/model_performance_test.png)
-- Random Forest Classifier optimized using random search yielded the best accuracy and precision scores
+- Random Forest Classifier optimized using random search yielded the best accuracy and precision scores.
 
 **Final Model Holdout Results**:
 
 ![holdout_results](images/model_performance_hold_out.png)
 
 **Final Thoughts**:
-- An "ensemble classifier" ended up providing the best performance for my selected metrics (accuracy and precision)
+- An "ensemble classifier" ended up providing the best performance for my selected metrics (accuracy and precision).
 - When considering the feature importance scores of the inputs used in my model (see feature_selection_engineering.ipynb for a ranking of the top features), it could be recommended that hitters pay the most attention to the following factors when predicting if a strike will be thrown:  
       a. Balls/strikes already in the count  
       b. Runners on base  
-      c. Total pitch count of the current pitcher 
+      c. Total pitch count of the current pitcher
+- Presentation slides for this project can be found [here.](https://github.com/jordanm3/mlb-strike-predictions/blob/master/Swing%20or%20Take%20-%20Predicting%20MLB%20Strikes.pdf)
 
 
 ## Acknowledgments
