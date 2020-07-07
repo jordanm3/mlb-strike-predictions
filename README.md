@@ -36,7 +36,7 @@ Implementation of this project involved:
       c. Pitcher Fatigue (# of pitches thrown)  
       d. Runners on Base  
       e. Score (Pitcher's Team) 
-      f. Pitch Type
+      f. Pitch Type  
       g. Pitcher/Hitter Position
 
 4. Determine the most important metrics to use in evaluating a final model. In addition to overall accuracy, precision was prioritized since the primary goal of this model is to make a recommendation on whether a hitter should swing at a pitch. With this in mind, it is important to be sure that a pitch that is predicted to be a strike is actually a strike if a hitter is going to commit to swinging at it. 
