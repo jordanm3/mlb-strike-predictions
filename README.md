@@ -23,7 +23,7 @@ Arguably, one of the most important variables that makes hitting a pitch difficu
 ## Methodology 
 Implementation of this project involved: 
 
-1. Obtain pitch-level data for every pitch thrown during the 2015-2018 MLB regular seasons, where each row represents a single pitch. Datasets were procured from [Kaggle](https://www.kaggle.com/pschale/mlb-pitch-data-20152018#games.csv) as the following 3 csv files:  
+1. Obtain pitch-level data for every pitch thrown during the 2015-2018 MLB regular seasons, where each row represents a single pitch. Create a master dataframe combining the following 3 csv files obtained from Kaggle:  
       a. atbats  
       b. pitches  
       c. games 
@@ -64,3 +64,6 @@ Implementation of this project involved:
 
 
 ## Acknowledgments
+- The work for this project was done as my 3rd project for the [Metis Data Science Bootcamp](https://www.thisismetis.com/data-science-bootcamps) and could not have been done without the support and guidance of my instructors and cohort.
+
+- The datasets for my model were obtained from Kaggle [here.](https://www.kaggle.com/pschale/mlb-pitch-data-20152018#games.csv)
