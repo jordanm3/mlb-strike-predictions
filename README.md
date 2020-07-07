@@ -66,18 +66,9 @@ Implementation of this project involved:
 ![model comparison](images/model_performance_test.png)
 - Random Forest Classifier optimized using random search yielded the best accuracy and precision scores
 
-
-
-
 **Final Model Holdout Results**:
 
 ![holdout_results](images/model_performance_hold_out.png)
-
-
-
-
-**Feature Importance Scores for Top 12 Features**:
-![feature_importance](images/feature_importance.png)
 
 
 ## Acknowledgments
