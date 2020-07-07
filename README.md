@@ -27,7 +27,14 @@ Implementation of this project involved:
       b. **pitches.csv**  
       c. **games.csv** 
 
-2. Create a single master dataframe containing the metadata from the images scraped from both The Met and MoMA. [Code found here.](https://github.com/jordanm3/street-art-to-fine-art/blob/master/data_collection/metadata_final.ipynb)
+2. Perform feature selection and engineering to identify potential real-world variables a hitter could use when attempting to predict whether a strike or ball would be thrown when there are less than 2 strikes already in the count. [Code found here.](https://github.com/jordanm3/mlb-strike-predictions/blob/master/feature_selection_engineering.ipynb) The final subset of features used in my model were:  
+      a. **Strike/Ball Count**  
+      b. **Number of Outs**  
+      c. **Pitcher Fatigue**  
+      d. **Runners on Base**  
+      e. **Score (Pitcher's Team)**  
+      f. **Pitch Type**  
+      g. **Pitcher/Hitter Position**
 
 3. Train a convolutional neural network autoencoder. Perform dimensionality reduction by taking the images of my corpus and passing them through 3 convolutional and pooling layers that learn the image’s features. Produce a narrow encoded layer that contains the lowest possible dimensions of the input data, allowing comparison between images to be computationally feasible. [Code found here.](https://github.com/jordanm3/street-art-to-fine-art/blob/master/models/autoencoder_model.ipynb)
 
