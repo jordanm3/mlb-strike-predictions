@@ -50,6 +50,14 @@ Implementation of this project involved:
 
 
 ## Tools and Technologies
+- Key python libraries:  
+      a. Pandas (Dataframe cleaning and manipulation)   
+      b. Matplotlib / Seaborn (Visualizations)  
+      c. LogisticRegression / KNeighborsClassifier / GaussianNB / DecisionTreeClassifier / RandomForestClassifier (Classifier models)
+
+- PostgreSQL (Data storage, manipulation and retrieval)
+
+- Tableau (Visualizations for feature importance scores)
 
 
 ## Results
