@@ -27,7 +27,9 @@ Implementation of this project involved:
       b. **pitches.csv**  
       c. **games.csv** 
 
-2. Perform feature selection and engineering to identify potential real-world variables a hitter could use when attempting to predict whether a strike or ball would be thrown when there are less than 2 strikes already in the count. [Code found here.](https://github.com/jordanm3/mlb-strike-predictions/blob/master/feature_selection_engineering.ipynb) The final subset of features used in my model were:  
+2. Create a target value that can be predicted (Strike = 1, Ball = 0). Perform feature selection and engineering to identify potential real-world model inputs a hitter could use when attempting to predict whether a strike or ball would be thrown when there are less than 2 strikes already in the count. [Code found here.](https://github.com/jordanm3/mlb-strike-predictions/blob/master/feature_selection_engineering.ipynb) 
+
+3. Test different combinations of features on a range of metrics (accuracy, precision, recall and f1 scores) using Logistic Regression as a baseline model. [Code found here.](https://github.com/jordanm3/mlb-strike-predictions/blob/master/feature_selection_engineering.ipynb) Select a final subset of features to use as inputs for a final model:  
       a. **Strike/Ball Count**  
       b. **Number of Outs**  
       c. **Pitcher Fatigue**  
@@ -36,9 +38,10 @@ Implementation of this project involved:
       f. **Pitch Type**  
       g. **Pitcher/Hitter Position**
 
-3. Train a convolutional neural network autoencoder. Perform dimensionality reduction by taking the images of my corpus and passing them through 3 convolutional and pooling layers that learn the image’s features. Produce a narrow encoded layer that contains the lowest possible dimensions of the input data, allowing comparison between images to be computationally feasible. [Code found here.](https://github.com/jordanm3/street-art-to-fine-art/blob/master/models/autoencoder_model.ipynb)
+4. Determine the most important metrics to use in evaluating a final model. In addition to overall accuracy, precision was prioritized since the primary goal of this model is to make a recommendation on whether a hitter should swing at a pitch. With this in mind, it is important to be sure that a pitch that is predicted to be a strike is actually a strike if a hitter is going to commit to swinging at it. 
 
-4. Use the narrow encoded layer to encode the corpus of fine art images and a test street art image, resulting in a set of feature tensors. Use cosine similarity to compare the street art image to every fine art image in the corpus to find the most visually similar matches. [Code found here.](https://github.com/jordanm3/street-art-to-fine-art/blob/master/models/image_comparison.ipynb) 
+5. Test selected inputs using various classifier models to determine which model performs best in accuracy and precision. [Code found here.](https://github.com/jordanm3/street-art-to-fine-art/blob/master/models/autoencoder_model.ipynb) Models tested included:  
+      a. 
 
 5. Develop a Flask web application that allows a user to upload an image of street art from their computer. Return the top 3 pieces of fine art that the autoencoder model determines are the best matches. Files used in the app include:  
       a. [Flask python code](https://github.com/jordanm3/street-art-to-fine-art/blob/master/flask_files/imagecomparison.py)  
